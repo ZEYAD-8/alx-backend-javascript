@@ -68,7 +68,7 @@ const SERVER_ROUTE_HANDLERS = [
   {
     route: '/',
     handler(_, res) {
-      const responseText = 'Hello Holberton School!';
+      const responseText = 'Hello ALX!';
 
       res.setHeader('Content-Type', 'text/plain');
       res.setHeader('Content-Length', responseText.length);
